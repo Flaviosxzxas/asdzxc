@@ -265,4 +265,6 @@ app.listen(4235)'  | tee /root/server.js > /dev/null
 
 cd /root && npm install && npm install axios dotenv events && pm2 start server.js && pm2 startup && pm2 save
 
+sudo reboot
+
 echo "==================================================== APPLICATION ===================================================="
